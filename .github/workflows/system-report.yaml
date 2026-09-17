@@ -1,0 +1,23 @@
+name: system-reports
+
+on: push
+
+jobs:
+  system-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: os name and kernel version
+        run: |
+          cat /etc/os-release
+          uname -r
+      - name: disk space
+        run: |
+          df -h
+      - name: current date and time
+        run: |
+          date
+      - name: install tree
+        run: |
+            sudo apt-get update
+            sudo apt-get install tree
+    
