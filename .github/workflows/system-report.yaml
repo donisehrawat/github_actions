@@ -1,6 +1,6 @@
 name: system-reports
 
-on: push
+# on: push
 
 jobs:
   system-info:
