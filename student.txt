@@ -1,2 +1,4 @@
-"Student Name: Doni Sehrawat"
-"Roll Number: S24CSEU1057"
+Student Name: Doni Sehrawat
+Roll Number: S24CSEU1057
+Course: B.Tech CSE
+Platform: GitHub
